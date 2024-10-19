@@ -1,5 +1,4 @@
 pipeline {
-    //test again xxxxxxx
     agent any
     stages {
         stage('Build') {
@@ -24,12 +23,8 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo "Build is completed OK JTM"
+                echo 'Build is completed OK JTM'
             }
         }
-        
     }
 }
-
-// Example 2 
-/New change in the code 23 213
